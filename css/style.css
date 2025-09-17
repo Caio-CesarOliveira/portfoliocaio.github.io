@@ -1,0 +1,117 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: #5a1096;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Seções */
+section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Imagem */
+#sobre img {
+  border-radius: 50%;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+table, th, td {
+  border: 1px solid #ddd;
+}
+th {
+  background: #5a1096;
+  color: white;
+  padding:12px;
+  text-transform: uppercase;
+}
+td, th {
+  padding: 10px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background: #ffffff;
+}
+tr:hover {
+  background-color: #ededed;
+}
+
+/* Botões de contato */
+.contatos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-contato {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn-contato img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilo específico para cada botão */
+.whatsapp {
+  background: #25D366;
+}
+.email {
+  background: #D44638;
+}
+.linkedin {
+  background: #0077B5;
+}
+
+.btn-contato:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+.curriculo {
+  background: #6C63FF; /* roxo moderno */
+}
+
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #5a1096;
+  color: white;
+  margin-top: 20px;
+}
